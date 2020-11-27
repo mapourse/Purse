@@ -1,4 +1,5 @@
-﻿using MoneyNamespace;
+﻿using CreditCardNamespace;
+using MoneyNamespace;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace Purse
         static void Main(string[] args)
         {
             Money m = new Money(20, Currencies.USD);
+            CreditCard cc = new CreditCard("0000323", 45000, 1);
         }
     }
 }
