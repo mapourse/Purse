@@ -1,4 +1,5 @@
-﻿using CreditCardNamespace;
+﻿using BusinessCardNamespace;
+using CreditCardNamespace;
 using MoneyNamespace;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace Purse
         {
             Money m = new Money(20, Currencies.USD);
             CreditCard cc = new CreditCard("0000323", 45000, 1);
+            BusinessCard bc = new BusinessCard("MyCompany", "mycompany@mail.com", "Address St, 5");
         }
     }
 }
