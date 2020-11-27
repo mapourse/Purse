@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MoneyNamespace;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace Purse
     {
         static void Main(string[] args)
         {
+            Money m = new Money(20, Currencies.USD);
         }
     }
 }
